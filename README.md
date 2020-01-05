@@ -15,3 +15,10 @@ terraform apply
 
 # Connect to your instance
 
+# To destroy your instance
+
+Since Amazon charge us the minute, having an unattended or used instance could cost us a lot. So, in order to destroy the machine that you've just created you need to run this lines followed by 'yes':
+
+```
+terraform destroy
+```
