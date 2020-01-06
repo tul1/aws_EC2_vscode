@@ -28,7 +28,7 @@ terraform apply
 ## Connect to your instance
 ![](https://github.com/microsoft/vscode-remote-release/blob/master/docs/images/ssh-readme.gif)
 
-## To destroy your instance
+## Destroy your instance
 :warning: Amazon charges us the minute for every alive instance we own, therefore having an unattended or an unused instance could cost us a lot. In order to destroy the machine that you've just created you need to run these lines followed by 'yes':
 ```
 terraform destroy
