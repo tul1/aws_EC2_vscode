@@ -13,7 +13,7 @@ Install this extension pluggin in your VSCode: https://code.visualstudio.com/doc
 
 Download and install Terraform from here : https://www.terraform.io/downloads.html
 
-## Create your ssh_key
+## Create your ssh key
 Create you ssh key to create an AWS keypair later.
 ```
 mkdir ssh_keys && ssh-keygen -f ./ssh_keys/mykey
