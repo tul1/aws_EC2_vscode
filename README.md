@@ -6,34 +6,27 @@
 
 A simple EC2 instance ready to be connected via Visual Studio Code Insiders via ssh.
 
-## Get VScode insiders
+## Get VScode insiders and VSCode remote
 Download and follow the instructions of this site: https://code.visualstudio.com/insiders/
+Install this extension pluggin in your VSCode: https://code.visualstudio.com/docs/remote/remote-overview
 
 ## Create your ssh_key
-First create you ssh key to create an aws keypair later.
+Create you ssh key to create an AWS keypair later.
 ```
 mkdir ssh_keys && ssh-keygen -f ./ssh_keys/mykey
 ```
 
 ## Create your instance
-Run the code in the box beneath:
+Run the code in the box beneath and type 'yes' afterwards:
 ```
 terraform init
 terraform apply
 ```
-
-## Download VSCode Insiders and VSCode Remote extension
-https://code.visualstudio.com/insiders/
-
-
-## Configure VSCode
-
 ## Connect to your instance
+![](https://github.com/microsoft/vscode-remote-release/blob/master/docs/images/ssh-readme.gif)
 
 ## To destroy your instance
-
-Since Amazon charge us the minute, having an unattended or used instance could cost us a lot. So, in order to destroy the machine that you've just created you need to run this lines followed by 'yes':
-
+:warning: Amazon charges us the minute for every alive instance we own, therefore having an unattended or an unused instance could cost us a lot. In order to destroy the machine that you've just created you need to run these lines followed by 'yes':
 ```
 terraform destroy
 ```
