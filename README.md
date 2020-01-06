@@ -1,7 +1,7 @@
 # AWS virtual machine for VSCode Insiders
 [![Terraform Version](https://img.shields.io/badge/Terraform-%3E%3D0.12-blueviolet)](https://github.com/hashicorp/terraform/)
 [![VSCode Insiders Version](https://img.shields.io/badge/VScode%20Insiders-%3E%3D1.41.1-green)](https://code.visualstudio.com/insiders/)
-[![vscode-remote-release](https://img.shields.io/badge/VScode--remote-doc-brightgreen)](https://code.visualstudio.com/docs/remote/remote-overview)
+[![vscode-remote-release](https://img.shields.io/badge/VScode--remote-doc-blue)](https://code.visualstudio.com/docs/remote/remote-overview)
 
 
 A simple EC2 instance ready to be connected via Visual Studio Code Insiders via ssh.
