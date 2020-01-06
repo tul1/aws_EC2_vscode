@@ -1,6 +1,6 @@
 # AWS virtual machine for VSCode Insiders
-[![Terraform Version](https://img.shields.io/badge/Terraform-%3E%3D0.12-blue)](https://github.com/hashicorp/terraform/)
-[![VSCode Insiders Version](https://img.shields.io/badge/VScode%20Insiders-%3D%3E1.41.1-green)](https://code.visualstudio.com/insiders/)
+[![Terraform Version](https://img.shields.io/badge/Terraform-%3E%3D0.12-blueviolet)](https://github.com/hashicorp/terraform/)
+[![VSCode Insiders Version](https://img.shields.io/badge/VScode%20Insiders-%3E%3D1.41.1-green)](https://code.visualstudio.com/insiders/)
 [![vscode-remote-release](https://img.shields.io/badge/VScode--remote-doc-brightgreen)](https://code.visualstudio.com/docs/remote/remote-overview)
 
 
