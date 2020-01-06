@@ -6,9 +6,12 @@
 
 A simple EC2 instance ready to be connected via Visual Studio Code Insiders via ssh.
 
-## Get VScode insiders and VSCode remote
-Download and follow the instructions of this site: https://code.visualstudio.com/insiders/
+## Get VScode insiders, VSCode remote extension and Terraform
+Download and install VSCode insiders from here: https://code.visualstudio.com/insiders/
+
 Install this extension pluggin in your VSCode: https://code.visualstudio.com/docs/remote/remote-overview
+
+Download and install Terraform from here : https://www.terraform.io/downloads.html
 
 ## Create your ssh_key
 Create you ssh key to create an AWS keypair later.
